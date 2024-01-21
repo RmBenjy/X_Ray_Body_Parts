@@ -1,6 +1,6 @@
  ## X-Ray Image Classification with Python
 
-This repository contains a comprehensive guide to building an image classification model using Python. The model is trained on a dataset of images and can be used to predict the class of a new image.
+This repository contains a comprehensive guide to building an image classification model using Python. The model is trained on a dataset of X-ray images and can be used to predict the class of a new image.
 
 ### Prerequisites
 
@@ -11,7 +11,7 @@ Before you begin, you will need to install the following libraries:
 * Keras 2.3 or later
 * NumPy
 * Pandas
-* Matplotlib
+
 
 ### Step 1: Import the Necessary Libraries
 
@@ -22,7 +22,6 @@ import tensorflow as tf
 from tensorflow.keras import models, layers
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 ```
 
 ### Step 2: Load the Dataset
